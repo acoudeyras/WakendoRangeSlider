@@ -1,0 +1,26 @@
+{
+    "name": "KendoRangeSlider",
+    "studioName": "KendoRangeSlider",
+    "category": "Custom Widgets",
+    "iconPath": "/icons/widget.png",
+    "author": "Widget Developer",
+    "contributors": [
+        "Alexis Coudeyras"
+    ],
+    "version": "1.0.0",
+    "copyright": "(c) 2014 Widget Developer",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/developer/Widget.git"
+    },
+    "keywords": ["wakanda", "widget"],
+    "engines": {"wakanda": ">= 8"},
+    "license": "MIT",
+    "loadDependencies": [
+        {"id": "Widget_V2"},
+		{"id": "KendoCore/package.json", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+		{"id": "KendoCore/lib/telerik.kendoui.core/js/kendo.slider.min.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "KendoRangeSlider/widget.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "KendoRangeSlider/designer.js", "studioOnly": true, "version": "1.0.0", "path": "WIDGETS_CUSTOM"}
+    ]
+}
