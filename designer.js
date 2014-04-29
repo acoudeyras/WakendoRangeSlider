@@ -1,4 +1,5 @@
 (function(KendoRangeSlider) {
+	'use strict';
 
 	KendoRangeSlider.setWidth('200');
 	KendoRangeSlider.setHeight('30');
