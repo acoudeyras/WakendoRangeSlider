@@ -1,6 +1,6 @@
 {
-    "name": "KendoRangeSlider",
-    "studioName": "KendoRangeSlider",
+    "name": "WakendoRangeSlider",
+    "studioName": "WakendoRangeSlider",
     "category": "Custom Widgets",
     "iconPath": "/icons/widget.png",
     "author": "Widget Developer",
@@ -18,9 +18,9 @@
     "license": "MIT",
     "loadDependencies": [
         {"id": "Widget_V2"},
-		{"id": "KendoCore/package.json", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
-		{"id": "KendoCore/lib/telerik.kendoui.core/js/kendo.slider.min.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
-        {"id": "KendoRangeSlider/widget.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
-        {"id": "KendoRangeSlider/designer.js", "studioOnly": true, "version": "1.0.0", "path": "WIDGETS_CUSTOM"}
+	{"id": "WakendoCore/package.json", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+	{"id": "WakendoCore/lib/telerik.kendoui.core/js/kendo.slider.min.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "WakendoRangeSlider/widget.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "WakendoRangeSlider/designer.js", "studioOnly": true, "version": "1.0.0", "path": "WIDGETS_CUSTOM"}
     ]
 }
