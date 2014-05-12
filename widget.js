@@ -1,4 +1,4 @@
-WAF.define('WakendoRangeSlider', ['waf-core/widget', 'kendoCore'], function(widget, $) {
+WAF.define('WakendoRangeSlider', ['waf-core/widget', 'wakendoCore'], function(widget, $) {
 	'use strict';
 	
     var KendoRangeSlider = widget.create('WakendoRangeSlider', {
