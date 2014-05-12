@@ -1,7 +1,7 @@
-WAF.define('KendoRangeSlider', ['waf-core/widget', 'kendoCore'], function(widget, $) {
+WAF.define('WakendoRangeSlider', ['waf-core/widget', 'kendoCore'], function(widget, $) {
 	'use strict';
 	
-    var KendoRangeSlider = widget.create('KendoRangeSlider', {
+    var KendoRangeSlider = widget.create('WakendoRangeSlider', {
 
     	startValue: widget.property({
     		type: 'number'
