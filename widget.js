@@ -62,7 +62,7 @@ WAF.define('WakendoRangeSlider', ['waf-core/widget', 'wakendoCore'], function(wi
         init: function() {
         	var self = this;
 
-			self._bindListeners();
+		self._bindListeners();
         	self.render();
         },
         
@@ -96,11 +96,11 @@ WAF.define('WakendoRangeSlider', ['waf-core/widget', 'wakendoCore'], function(wi
         },
 
         enable: function() {
-        	self.kendoWidget.enable();
+        	this.kendoWidget.enable();
         },
 
         disable: function() {
-        	self.kendoWidget.enable(false);
+        	this.kendoWidget.enable(false);
         }
 
     });
