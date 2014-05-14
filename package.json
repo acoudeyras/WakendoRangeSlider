@@ -11,9 +11,9 @@
     "copyright": "(c) 2014 Widget Developer",
     "repository": {
         "type": "git",
-        "url": "https://github.com/developer/Widget.git"
+        "url": "https://github.com/acoudeyras/WakendoRangeSlider.git"
     },
-    "keywords": ["wakanda", "widget"],
+    "keywords": ["wakanda", "widget", "kendo", "slider", "range"],
     "engines": {"wakanda": ">= 8"},
     "license": "MIT",
     "loadDependencies": [
