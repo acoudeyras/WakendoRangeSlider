@@ -91,8 +91,7 @@ WAF.define('WakendoRangeSlider', ['waf-core/widget', 'wakendoCore'], function(wi
         			self.endValueChangeSubscriber.resume();
         		}
         	});
-			self.kendoWidget = $el.data("kendoRangeSlider");
-		      	
+		self.kendoWidget = $el.data("kendoRangeSlider");
         },
 
         enable: function() {
