@@ -71,7 +71,7 @@ WAF.define('WakendoRangeSlider', ['waf-core/widget', 'wakendoCore'], function(wi
        		$(self.node).empty();
        		var $el = $('<div />').appendTo(self.node);
        		$('<input />').appendTo($el);
-			$('<input />').appendTo($el);
+		$('<input />').appendTo($el);
 			
     		$el.kendoRangeSlider({
     			min: self.min(),
