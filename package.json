@@ -13,7 +13,7 @@
         "type": "git",
         "url": "https://github.com/acoudeyras/WakendoRangeSlider.git"
     },
-    "externalWidgets" : ["https://github.com/acoudeyras/WakendoCore.git"],
+    "externalWidgets" : ["WakendoCore"],
     "keywords": ["wakanda", "widget", "kendo", "slider", "range"],
     "engines": {"wakanda": ">= 8"},
     "license": "MIT",
