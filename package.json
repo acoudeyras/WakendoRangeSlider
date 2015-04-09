@@ -15,6 +15,7 @@
     },
     "keywords": ["wakanda", "widget", "kendo", "slider", "range"],
     "engines": {"wakanda": ">= 8"},
+    "externalWidgets" : ["WakendoCore"],
     "license": "MIT",
     "loadDependencies": [
         {"id": "Widget_V2"},
